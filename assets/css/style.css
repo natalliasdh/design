@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+main {
+    flex: 1 0 auto;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+footer {
+    flex-shrink: 0;
+}
+
+body {
+    background-color: #FFF7F0;
+    padding: 16px;
+}
+
+.logo img {
+    width: 48px;
+    height: 48px;
+}
+
+.consult {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.schedule {
+    width: 176px;
+    height: 44px;
+    background-color: black;
+    border-radius: 28px;
+    border: none;
+    color: white;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 16px;
+    margin-top: 32px;
+}
+
+.solutions {
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+.solutions p {
+    line-height: 26px;
+    color: #7A746E;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.graphic {
+    background-color: #755CDE;
+    height: 364px;
+    border-radius: 8px;
+    margin-bottom: 24px;
+    position: relative;
+    background-image: url(../images/pattern-graphic-design.svg);
+    background-position: right 24px top 24px;
+    background-repeat: no-repeat;
+}
+
+.ux {
+    background-color: #F6A560;
+    height: 182px;
+    border-radius: 8px;
+    flex-basis: 49%;
+    margin-right: 24px;
+    position: relative;
+    background-image: url(../images/pattern-ui-ux.svg);
+    background-position: right 24px top 24px;
+    background-repeat: no-repeat;
+}
+
+.apps {
+    background-color: #F39E9E;
+    height: 182px;
+    border-radius: 8px;
+    flex-basis: 49%;
+    position: relative;
+    background-image: url(../images/pattern-apps.svg);
+    background-position: right 24px top 24px;
+    background-repeat: no-repeat;
+}
+
+.ux-apps {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.illustrations {
+    background-color: #EB7565;
+    height: 158px;
+    border-radius: 8px;
+    margin-top: 24px;
+    position: relative;
+    background-image: url(../images/pattern-illustrations.svg);
+    background-position: right 24px top 24px;
+    background-repeat: no-repeat;
+}
+
+.photography {
+    background-color: #61C4B7;
+    height: 182px;
+    border-radius: 8px;
+    margin-top: 24px;
+    position: relative;
+    background-image: url(../images/pattern-photography.svg);
+    background-position: right 24px top 24px;
+    background-repeat: no-repeat;
+}
+
+.motion {
+    background-color: #552049;
+    height: 182px;
+    border-radius: 8px;
+    margin-top: 24px;
+    position: relative;
+    background-image: url(../images/pattern-motion-graphics.svg);
+    background-position: right 24px top 24px;
+    background-repeat: no-repeat;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 24px;
+    left: 24px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+/* -----------------------------------Tablet for the first half of the page-----------------------------*/
+
+@media only screen and (min-width:768px) {
+    body {
+        padding: 39px;
+    }
+    .logo img {
+        width: 64px;
+        height: 64px;
+    }
+    .schedule {
+        width: 228px;
+        height: 56px;
+        font-size: 16px;
+        line-height: 28px;
+    }
+    h1 {
+        font-weight: bold;
+        font-size: 44px;
+    }
+    .first {
+        display: flex;
+        flex-direction: row;
+    }
+    .graphic {
+        flex-basis: 50%;
+        margin-right: 24px;
+    }
+    .first-other {
+        flex-basis: 50%;
+    }
+    .second {
+        display: flex;
+        flex-direction: row;
+    }
+    .photography {
+        flex-basis: 50%;
+        margin-right: 24px;
+        margin-top: 0;
+    }
+    .motion {
+        flex-basis: 50%;
+        margin-top: 0;
+    }
+}
+
+@media only screen and (min-width:1440px) {
+    body {
+        padding: 165px;
+    }
+    h1 {
+        font-size: 56px;
+    }
+    .options {
+        display: flex;
+        flex-direction: row;
+    }
+    .first {
+        flex-basis: 50%;
+    }
+    .second {
+        flex-basis: 50%;
+        flex-direction: column;
+        margin-left: 24px;
+    }
+    .photography {
+        margin-right: 0;
+        margin-bottom: 24px;
+    }
+    .graphic {
+        margin-bottom: 0;
+    }
+}
