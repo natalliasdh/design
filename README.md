@@ -16,8 +16,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/natalliasdh/design)
-- Live Site URL: [Add live site URL here](https://natalliasdh.github.io/design/)
+- Solution URL: [https://github.com/natalliasdh/design](https://github.com/natalliasdh/design)
+- Live Site URL: [https://natalliasdh.github.io/design/](https://natalliasdh.github.io/design/)
 
 
 ### Built with
