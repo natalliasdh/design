@@ -1,4 +1,5 @@
 let slideIndex = 1;
+
 showSlides(slideIndex);
 
 function plusSlides(n) {
@@ -22,7 +23,6 @@ function showSlides(n) {
 
 
     slides[slideIndex - 1].style.display = "block";
-
     slides[slideIndex].style.display = "block";
     slides[slideIndex + 1].style.display = "block";
 

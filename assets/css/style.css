@@ -49,6 +49,11 @@ body {
     color: white;
     font-size: 14px;
     line-height: 20px;
+    cursor: pointer;
+}
+
+.schedule:hover {
+    background-color: #755CDE;
 }
 
 h1 {
@@ -351,6 +356,11 @@ h2 {
     cursor: pointer;
 }
 
+.prev:hover,
+.next:hover {
+    background-color: #755CDE;
+}
+
 .prev img,
 .next img {
     position: absolute;
@@ -377,5 +387,52 @@ h2 {
     .slideshow-container {
         margin-left: -165px;
         margin-right: -165px;
+    }
+}
+
+.book {
+    background-color: black;
+    padding: 49px 24px;
+    border-radius: 10px;
+    margin-top: 100px;
+    color: #FFF7F0;
+    text-align: center;
+    margin-bottom: 56px;
+}
+
+h3 {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+.book p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+
+@media only screen and (min-width:768px) {
+    .book {
+        padding: 56px 75px;
+    }
+}
+
+@media only screen and (min-width:1440px) {
+    .book {
+        padding: 81px 65px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .book-flex {
+        flex-basis: 50%;
+        margin-right: 182px;
+        text-align: left;
+    }
+    .button-flex {
+        flex-basis: 50%;
+        text-align: center;
     }
 }
